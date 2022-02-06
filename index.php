@@ -14,6 +14,70 @@
             height: 100vh !important;
         }
 
+        .fundo-principal {
+    background: linear-gradient(to right, #D9ADEB, #e6ccf0);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+        .resultado {
+            font-size: 30px;
+            font-weight: bold;
+            color: #000000;
+            text-align: center;
+        }
+
+        .coluna-imc {
+            -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+            max-width: 50%;
+            position: relative;
+            width: 100%;
+            min-height: 1px;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+
+        @media (min-width: 901px) and (max-width: 1000px) {
+            .coluna-imc {
+                -ms-flex: 0 0 58.333333%;
+                flex: 0 0 58.333333%;
+                max-width: 58.333333%;
+            }
+        }
+
+        @media (min-width: 801px) and (max-width: 900px) {
+            .coluna-imc {
+                -ms-flex: 0 0 66.666667%;
+                flex: 0 0 66.666667%;
+                max-width: 66.666667%;
+            }
+        }
+
+        @media (min-width: 701px) and (max-width: 800px) {
+            .coluna-imc {
+                -ms-flex: 0 0 75%;
+                flex: 0 0 75%;
+                max-width: 75%;
+            }
+        }
+
+        @media (min-width: 601px) and (max-width: 700px) {
+            .coluna-imc {
+                -ms-flex: 0 0 83.333333%;
+                flex: 0 0 83.333333%;
+                max-width: 83.333333%;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .coluna-imc {
+                -ms-flex: 0 0 96%;
+                flex: 0 0 96%;
+                max-width: 96%;
+            }
+        }
     </style>
     <title>IMC</title>
 </head>
