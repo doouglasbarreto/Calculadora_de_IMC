@@ -130,7 +130,7 @@ switch ($imc) {
     <div class="coluna-imc mx-auto p-0" >
         <h1 class="text-center">Calculadora de IMC</h1>
         <p class="text-center px-3 mx-1">
-        <a href="https://douglasbarreto.me/projeto6/index.php"><button type="button" class="btn btn-primary btn-lg">Calcular outro IMC</button></a>
+        <a href="https://douglasbarreto.me/github/imc/index.php"><button type="button" class="btn btn-primary btn-lg">Calcular outro IMC</button></a>
             <div class="form-group">
                 <label for="formNome">Nome</label>
                 <input type="text" class="form-control leitura" id="formNome" maxlength="15" readonly value="<?php echo $nome; ?>">
